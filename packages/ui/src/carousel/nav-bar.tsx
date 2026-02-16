@@ -89,6 +89,7 @@ export const CarouselNavBar = ({
                     transition={{
                       type: "tween",
                       duration:
+                        // @ts-ignore
                         (autoplay?.options.delay ?? AUTOPLAY_DEFAULT_DELAY) /
                         1000,
                     }}
